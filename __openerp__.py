@@ -30,7 +30,7 @@
     'author': "Humanytek",
     'website': "http://www.humanytek.com",
     'category': 'Warehouse',
-    'version': '1.0.0',
+    'version': '1.0.1',
     'depends': ['stock'],
     'data': [
         'views/product_view.xml',
