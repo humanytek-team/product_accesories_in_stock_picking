@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_accesories_in_stock_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 9.0e-20170207\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-15 14:45+0000\n"
+"PO-Revision-Date: 2017-08-15 10:54-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. module: product_accesories_in_stock_picking
+#: model:ir.model.fields,field_description:product_accesories_in_stock_picking.field_product_template_has_accessories
+#: model:ir.model.fields,field_description:product_accesories_in_stock_picking.field_stock_picking_products_has_accessories
+msgid "Has accesories ?"
+msgstr "¿ Tiene accesorios ?"
+
+#. module: product_accesories_in_stock_picking
+#: model:ir.model,name:product_accesories_in_stock_picking.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: product_accesories_in_stock_picking
+#: model:ir.model.fields,field_description:product_accesories_in_stock_picking.field_stock_picking_products_with_accessories
+msgid "Products with accessories"
+msgstr "Productos con accesorios"
+
+#. module: product_accesories_in_stock_picking
+#: model:ir.ui.view,arch_db:product_accesories_in_stock_picking.product_accessories_view_picking_form
+msgid "This transfer contains <strong>products with accessories</strong>:"
+msgstr "Esta transferencia contiene <strong>productos con accesorios</strong>:"
+
+#. module: product_accesories_in_stock_picking
+#: model:ir.model,name:product_accesories_in_stock_picking.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
