@@ -55,6 +55,6 @@ class StockPicking(models.Model):
                     if move.product_id.has_accessories:
                         products_with_accessories.append(move.product_id.name)
                 picking.products_with_accessories = ', '.join(
-                    products_with_accessories)
+                    sorted(set(products_with_accessories)))
             else:
                 picking.products_with_accessories = False
