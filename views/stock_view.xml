@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="product_accessories_view_picking_form" model="ir.ui.view">
+            <field name="name">product.accesories.view.picking.form</field>
+            <field name="model">stock.picking</field>
+            <field name="inherit_id" ref="stock.view_picking_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//header" position="after">
+                    <field name="products_has_accessories" invisible="1"/>
+                    <div
+                      class="alert alert-info"
+                      role="alert"
+                      style="margin-bottom:0px;"
+                      attrs="{'invisible': [('products_has_accessories','=',False)]}">
+
+                        This transfer contains <strong>products with accessories</strong>:
+                        <field name="products_with_accessories" />
+
+                    </div>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</openerp>
